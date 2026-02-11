@@ -1,9 +1,7 @@
 #include <iostream>
 #include <exception>
 
-
 #include "arrayboard.h"
-
 
 const char* PieceUnicode(Piece piece) {
     switch (piece) {
@@ -33,7 +31,6 @@ void PrintPosition(const BoardRepr &board, std::ostream &out = std::cout) {
         out << std::endl;
     };
 }
-
 
 
 int main() {
